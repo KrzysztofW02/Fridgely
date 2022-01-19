@@ -1,0 +1,204 @@
+
+.logo
+{
+position: absolute;
+left: 0%;
+right: 10.81%;
+top: 0%;
+bottom: 24.31%;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.zapomnij
+{
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+margin-bottom: 40px;
+
+color: #50BDFB;
+text-align: center;
+}
+
+.relakss
+{
+
+position: absolute;
+left: 47.89%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(relakss.png);
+margin-bottom: 40px;
+}
+
+.zrelaksuj
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 53px;
+color: #5A5757;
+margin-bottom: 35px;
+}
+
+.nasza
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 34px;
+color: #5A5757;
+}
+
+.fridgely
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 49px;
+line-height: 57px;
+color: #FFFFFF;
+margin-bottom: 40px;
+
+}
+
+.zamow
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 66px;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.jesli
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 39px;
+line-height: 46px;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.h1
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 49px;
+line-height: 57px;
+text-align: center;
+color: #5A5757;
+margin-bottom: 100px;
+}
+
+.nasz
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #5A5757;
+}
+
+.general-font
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] 
+{
+  float: left;
+  padding: 15px;
+}
+
+.bok 
+{
+  background: url(grafika/relakss.png);
+  padding: 15px;
+  color: #50BDFB;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+ height: 722px;
+width: 704px;
+left: 647px;
+top: 0px;
+border-radius: 0px;
+margin-right: 75px;
+}
+
+[class*="col-"] 
+{
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) 
+{
+
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) 
+{
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
